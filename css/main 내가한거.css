@@ -313,9 +313,6 @@ section.me {
 section.me .list span>i {
     color: #f86010;
 }
-section.me .list .more {
-    font-weight: 700;
-}
 section.me .list{
     margin: 0 auto;
     margin-top: 50px;

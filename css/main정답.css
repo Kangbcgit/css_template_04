@@ -1,0 +1,57 @@
+/* section innovation style */
+
+section.innovation {
+    margin-bottom: 150px;
+}
+
+section.innovation .img-box {
+    width: 74%;
+    height: 540px;
+    background: url('../img/product_1.jpg') no-repeat center / cover;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+section.innovation .img-box .inner {
+    background: #3a3c4e;
+    width: 80%;
+    
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, 0);
+}
+section.innovation .img-box .inner h3 {
+    background: #fff;
+    font-size: 18px;
+    padding: 25px 45px;
+    box-sizing: border-box;
+}
+section.innovation .img-box .inner .bottom {
+    color: #fff;
+    padding: 35px 85px;
+    box-sizing: border-box;
+}
+section.innovation .img-box .inner .bottom p {
+    float: left;
+    width: 70%;
+    line-height: 1.6;
+}
+section.innovation .img-box .inner .bottom a {
+    /* float나 position속성을 걸면 자동으로
+        display가 block속성이 됩니다.
+    */
+    float: right;    
+    background: #ff8342;
+    border-radius: 50px;
+    padding: 7px 30px;
+}
+section.innovation .img-box .inner .bottom a:hover {
+    background: #f86010;
+}
+
+/* section me style */
+section.me {
+    background: url('../img/me.jpg') no-repeat center / cover;
+    padding: 80px
+}
